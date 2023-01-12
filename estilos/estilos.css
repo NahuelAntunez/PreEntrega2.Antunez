@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body
+    {
+        background-image: url(../imagenes/fondo.jpg);
+        height: auto;
+        width: auto;
+        background-size: cover;
+    }
+
+header{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 22px;
+    height: 80px;
+    padding: 20px;
+}
+.logo{
+    text-transform: uppercase;
+    float: left;
+    
+}
+.barra{
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: green;
+   
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a:hover{
+    color:  rebeccapurple;
+    text-decoration: none;
+    background-color:gray;
+    padding: 1rem;
+}
+h2{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
+.sec{
+    background-color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+p{
+    color: black;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer i{
+    font-size: 45px;
+    letter-spacing: 10px;
+}
+#galeria img{
+width: 100%;
+height: 250px;
+padding-inline: 1.5rem;
+}
+#galeria .col-lg-4{
+    margin: 0!important;
+    padding: 25px;
+}
+#galeria img:hover{
+    border: 5px solid red;
+}
