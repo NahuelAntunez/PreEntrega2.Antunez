@@ -19,6 +19,15 @@ header{
     height: 80px;
     padding: 20px;
 }
+.home{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    color: red;
+    font-size: xx-large;
+}
+
 .logo{
     text-transform: uppercase;
     float: left;
@@ -44,7 +53,7 @@ header{
     background-color:gray;
     padding: 1rem;
 }
-h2{
+h1{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 20px;
@@ -70,6 +79,17 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: capitalize;
     padding: 20px;
+}
+.contReferentes{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+}
+.contReferentes ul li{
+    list-style: none;
 }
 footer p{
     margin-bottom: 10px;
