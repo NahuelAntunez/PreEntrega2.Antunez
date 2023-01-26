@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heavy Metal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./imagenes/fondo.jpg">
@@ -25,8 +26,47 @@
             </ul>
         </nav>
     </header>
-    
-        
+    <section class="hero">
+        <h1>Heavy Metal</h1>
+    </section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="./imagenes/Nueva carpeta/04_gorgorot.jpg" class="d-block w-100" alt="baner 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Gorgoroth</h2>
+                <p>Black Metal</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./imagenes/Nueva carpeta/11_proagression.jpg" class="d-block w-100" alt="baner 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Proagression</h2>
+                <p>Some representative placeholder content for the second slide.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./imagenes/Nueva carpeta/03_dri.jpg" class="d-block w-100" alt="baner 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Dirti Roten Invesibesl</h2>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+        </div>
             <h1 id="sec1" class="sec">Historia</h2>
             <section class="cont-cont1">
                 <p> El heavy metal nació en los años 70. Descendiente del rock, ha seguido un largo camino desde sus origenes hasta como es conocido hoy día. Fueron bandas como Led Zeppelin y Deep Purple los que marcaron una diferencia sobre lo que se estaba haciendo en su época, pero muchos situan el origen del heavy metal en la banda Black Sabbath, considerada hoy día como Doom Metal. Esta banda ha sido probablemente la más influyente de la historia del heavy metal, y es considerada la primera banda de heavy metal de la historia.
@@ -45,19 +85,72 @@
                 </p>
             </section>
                 <h2 id="sec2" class="sec">Referentes</h2>
-                <section class="contReferentes">
-                    <ul type="circle">
-                        <li>Black Sabbath</li>
-                        <li>Judas Priest</li>
-                        <li>Deep Purple</li>
-                        <li>Led Zeppelin</li>
-                        <li>Iron Maiden</li>
-                        <li>Motörhead</li>
-                        <li>Metallica</li>
-                        <li>Dio</li>
-                        <li>Misfits</li>
-                        <li>Venom</li>
-                    </ul>
+                <section class="tarjetas">
+                    <div class="tarjetilla">
+                        <img src="./imagenes/black_sabbath.jpg" alt="">
+                        <div class="info">
+                            <h2>Black Sabbath</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    <div class="tarjetilla">
+                        <img src="./imagenes/judas.jpg" alt="">
+                        <div class="info">
+                            <h2>Judas Priest</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    <div class="tarjetilla">
+                        <img src="./imagenes/DeepPurple.jpg" alt="">
+                        <div class="info">
+                            <h2>Deep Purple</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    <div class="tarjetilla">
+                        <img src="./imagenes/ledZeppelin.jfif" alt="">
+                        <div class="info">
+                            <h2>Led Zeppelin</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    <div class="tarjetilla">
+                        <img src="./imagenes/ironMaiden.jpg" alt="">
+                        <div class="info">
+                            <h2>Iron Maiden</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    <div class="tarjetilla">
+                        <img src="./imagenes/Motorhead_1.jpg" alt=""><div class="info">
+                            <h2>Motörhead</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    <div class="tarjetilla">
+                        <img src="./imagenes/metallica1.webp" alt=""><div class="info">
+                            <h2>Metallica</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    <div class="tarjetilla">
+                        <img src="./imagenes/dio_1.jpg" alt=""><div class="info">
+                            <h2>DIO</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    <div class="tarjetilla">
+                        <img src="./imagenes/Venom_1.jfif" alt=""><div class="info">
+                            <h2>Venom</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div><div class="tarjetilla">
+                        <img src="./imagenes/mistfist_1.jfif" alt=""><div class="info">
+                            <h2>Misfits</h2>
+                            <a href="#">Ver mas (wiki)</a>
+                        </div>
+                    </div>
+                    
                 </section>
                 <h2 id="sec3" class="sec">Curiosidades</h2>
                 <section class="cont-cont3">
@@ -90,6 +183,6 @@
             <i class="fa-brands fa-whatsapp"></i>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>    
 </body>
 </html>

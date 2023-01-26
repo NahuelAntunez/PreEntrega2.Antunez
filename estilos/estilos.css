@@ -80,16 +80,24 @@ footer{
     text-transform: capitalize;
     padding: 20px;
 }
-.contReferentes{
-    text-decoration: none;
-    list-style: none;
-    font-size: 30px;
-    padding: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: inline-block;
+.tarjetas{
+    max-width: 200px;
+    display: flex;
+    margin: 0 auto;
+    gap: 1rem;
+    flex-flow: row wrap;
 }
-.contReferentes ul li{
-    list-style: none;
+.tarjetas img{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+.tarjetilla{
+    background-color: lightslategrey;
+    border-radius: 1rem;
+    text-align: center;
+}
+.info{
+    padding: 2rem;
 }
 footer p{
     margin-bottom: 10px;
